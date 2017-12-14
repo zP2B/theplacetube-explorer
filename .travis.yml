@@ -12,9 +12,6 @@ script:
   - npm test -- --coverage
   - codecov
   - npm run build
-env:
-  global:
-    - NODE_ENV=production
 deploy:
   provider: pages
   skip_cleanup: true
