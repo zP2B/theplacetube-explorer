@@ -19,4 +19,4 @@ deploy:
   local_dir: build
   on:
     branch: master
-    node: "stable"
+    node_js: "stable"
